@@ -39,7 +39,7 @@ That's because I currently have no time implementing these. If you really need t
 You can find the message id by opening the developer tools (F12) and inspecting the wrapper of a message.
 
 # Language
-**As mentioned earlier, I originally created this for personal use so all dialogues and texts are german**
+**As mentioned earlier, I originally created this for personal use so all dialogues and texts are in german**
 
 # Message limitations
 To prevent lags I limited the shown messages to 20,000. Everything higher than that will crash your browser / tab.
