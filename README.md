@@ -16,6 +16,7 @@ This app is created with [Svelte Kit](https://kit.svelte.dev) in no time because
 * Audios
 * Replies
 * Documents (only in the media directory)
+* Date
 
 # How to create a WhatsApp backup
 Use [`whatsappsaver`](https://github.com/derxge/whatsappsaver).
