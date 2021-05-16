@@ -6,6 +6,17 @@ This app is created with [Svelte Kit](https://kit.svelte.dev) in no time because
 
 <img src="https://i.ibb.co/7SDjSqG/whatsappviewer-xge-1.png" alt="chats" width="200"><img src="https://i.ibb.co/pPbbbBm/whatsappviewer-xge-2.png" alt="chat" width="200">
 
+## What will be displayed:
+* Profile pictures
+* Contact names
+* Messages
+* Images
+* Videos
+* Gifs
+* Audios
+* Replies
+* Documents (only in the media directory)
+
 # How to create a WhatsApp backup
 Use [`whatsappsaver`](https://github.com/derxge/whatsappsaver).
 
