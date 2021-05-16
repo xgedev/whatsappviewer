@@ -4,6 +4,9 @@ View your WhatsApp backups created with whatsappsaver
 
 This app is created with [Svelte Kit](https://kit.svelte.dev) in no time because it was originally coded for personal use. There may be bugs.
 
+![Chats](https://i.ibb.co/7SDjSqG/whatsappviewer-xge-1.png)
+![Chat](https://i.ibb.co/XX2QwsJ/whatsappviewer-xge-2.png)
+
 # How to create a WhatsApp backup
 Use [`whatsappsaver`](https://github.com/derxge/whatsappsaver).
 
@@ -23,3 +26,16 @@ Note that some message types (like live locations) can not be displayed and docu
 
 That's because I currently have no time implementing these. If you really need them, open an issue or just look into `./systems/accounts/YOUR_PHONE_NUMBER/YOUR_CHAT/media/YOUR_MESSAGE_ID`.
 You can find the message id by opening the developer tools (F12) and inspecting the wrapper of a message.
+
+# Language
+**As mentioned earlier, I originally created this for personal use so all dialogues and texts are german**
+
+# Message limitations
+To prevent lags I limited the shown messages to 20,000. Everything higher than that will crash your browser / tab.
+
+I could not figure out how to load more messages while scrolling etc.
+
+If you want to change the shown messages, update the variable `showMessageCount` in `./src/routes/chat/[chatId].svelte` or change `chat.messages.slice` in the for each block (first 20,000 messages would be `chat.messages.slice(-showMessageCount)`)
+
+# No search
+Although there's a search button at the top, it is not working. I do not plan to implement that soon.
